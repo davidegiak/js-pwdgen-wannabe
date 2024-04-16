@@ -5,7 +5,7 @@
 // // utilizzo/richiamo (senza let)
 // alert(miaStringa);
 
-const nome=prompt ("Nome")
-const cognome=prompt ("Cognome")
-const colorePreferito=prompt ("Colore preferito")
+let nome=prompt ("Nome")
+let cognome=prompt ("Cognome")
+let colorePreferito=prompt ("Colore preferito")
 document.getElementById("password").innerHTML = "nome" + "cognome" + "colorePreferito" + "#24"

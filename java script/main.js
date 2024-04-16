@@ -6,6 +6,9 @@
 // alert(miaStringa);
 
 let nome=prompt ("Nome")
+
 let cognome=prompt ("Cognome")
+
 let colorePreferito=prompt ("Colore preferito")
-document.getElementById("password").innerHTML = "nome" + "cognome" + "colorePreferito" + "#24"
+
+document.getElementById("password").innerHTML = nome + cognome + colorePreferito + "#24"

@@ -11,4 +11,10 @@ let cognome=prompt ("Cognome")
 
 let colorePreferito=prompt ("Colore preferito")
 
-document.getElementById("password").innerHTML = nome + cognome + colorePreferito + "#24"
+let laTuaPassword=("La Tua Password è:")
+
+let numero=("#24")
+
+alert (laTuaPassword + nome + cognome + colorePreferito + numero)
+
+document.getElementById("password").innerHTML =laTuaPassword + nome + cognome + colorePreferito + numero
